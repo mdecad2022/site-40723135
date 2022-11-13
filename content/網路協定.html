@@ -2,7 +2,7 @@
         <head>
         <title>cmsite</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,8 +141,23 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W7 << <a href='W7.html'>Previous</a> <a href='W9.html'>Next</a> >> W9<br /><h1>W8</h1>
-<br />W7 << <a href='W7.html'>Previous</a> <a href='W9.html'>Next</a> >> W9</div>
+    <div id="tipue_search_content">W2 << <a href='W2.html'>Previous</a> <a href='Replit 作為應用程式伺服器.html'>Next</a> >> Replit 作為應用程式伺服器<br /><h1>網路協定</h1>
+<p>所有網路上的應用, 都牽涉網路協定, 以 https 而言, 所使用的網路協定就是 http, 也就是超文件傳輸協定. 而 https 就是在利用超文件傳輸的過程中, 將傳送的資料加以加密編碼後, 直到接收後再解開, 是相較於 http 嚴謹安全的傳送.</p>
+<p>以 https 擷取 Github 倉儲的時候, 需要在 URL 中加上帳號<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">token</a>, 而這串連線驗證身分用的字串, 還帶有權限範圍, 以及時效, 使用者可以在 Github 帳號設定頁中取得.</p>
+<p>由於 Github 目前只支援 IPv4 協定, 而在電腦輔助設計室為了擴大可用頻寬, 採用 IPv6 協定, 要讓 IPv6 協定下的 git 指令, 正確與 Github 倉儲連線, 必須透過 Proxy server (使用<span> </span><a href="http://www.squid-cache.org/">Squid</a>), 而且是能同時支援 IPv4 與 IPv6 協定的代理主機. 以 https 對 git 指令的 Proxy 設定, 位於可攜程式環境中的 home_ipv6 目錄下, 檔案名稱為 .gitconfig, 使用者執行 git config 後的設定就是存入 home_ipv6/.gitconfig 檔案中.</p>
+<p>至於 git 所使用的<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">SSH</a><span> </span>連線協定, 在 Windows 操作系統, 可以透過<span> </span><a href="https://www.putty.org/">Putty</a><span> </span>session 設定達成, 其中的 session 包含連線到 github.com, 所使用的<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">SSH</a><span> </span>認證用 private key 位置, 還有 Proxy 設定.</p>
+<p>上述將使用 cmsimde 作為子模組的倉儲取至近端電腦的目的, 共有兩個: 進行改版以及進行協同.</p>
+<p>在近端進行倉儲內容改版的意思是, 利用 Python 與必要模組, 可以執行 cmsimde 網站中的動態系統, 其中所需要的模組為:</p>
+<p>flask flask_cors bs4 lxml pelican markdown leo pyopenssl</p>
+<p>flask 與 flask_cors 是網際框架, 安裝 flask_cors 的目的是讓網站可以跨網域擷取資料.</p>
+<p>bs4 是用來對超文件分頁的工具, 讓 cmsimde 中的 config/content.htm 可以根據 H1, H2 與 H3 的標題進行分頁.</p>
+<p>lxml 是將動態網頁內容轉為靜態網頁內容時所需要的解讀模組.</p>
+<p>pelican 是用來建立網誌的工具, 可以將使用者所寫的 Markdown 轉為網誌格式的內容.</p>
+<p>markdown 是用來解讀 .md 檔案的工具.</p>
+<p><a href="https://www.leoeditor.com/">leo</a><span> </span>是大綱管理模組, 用來作為編寫網誌或簡報的工具, 也可以當作程式開發的 IDE.</p>
+<p>pyopenssl 則是在動態網頁中, 以程式方法伺服靜態網頁內容時, 建立 SSL 連線時所需.</p>
+<p></p>
+<br />W2 << <a href='W2.html'>Previous</a> <a href='Replit 作為應用程式伺服器.html'>Next</a> >> Replit 作為應用程式伺服器</div>
         
     <!-- footer -->
       <div class="container">

@@ -2,7 +2,7 @@
         <head>
         <title>cmsite</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H3">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -141,8 +141,15 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W7 << <a href='W7.html'>Previous</a> <a href='W9.html'>Next</a> >> W9<br /><h1>W8</h1>
-<br />W7 << <a href='W7.html'>Previous</a> <a href='W9.html'>Next</a> >> W9</div>
+    <div id="tipue_search_content">網路協定 << <a href='網路協定.html'>Previous</a> <a href='W3.html'>Next</a> >> W3<br /><h1>Replit 作為應用程式伺服器</h1>
+<p>除了將 Github 上的倉儲, git clone 到近端改版外, 也可以利用<span> </span><a href="https://replit.com/">Replit</a>, 直接在瀏覽器上以 wsgi 模式, 執行 cmsimde 的動態網站. 如此可以免除在近端執行動態網站所需要的網路協定與 git 指令. 只不過<span> </span><a href="https://replit.com/">Replit</a><span> </span>只給免費帳號 500 MB 的儲存空間, 過大的倉儲並不適合採用<span> </span><a href="https://replit.com/">Replit</a><span> </span>執行 cmsimde 的動態網站.</p>
+<p>使用<span> </span><a href="https://replit.com/">Replit</a><span> </span>執行 cmsimde 的過程, 需要在 shell 執行:</p>
+<p>git submodule update --init --recursive</p>
+<p>目的是取下子模組資料, 因為<span> </span><a href="https://replit.com/">Replit</a><span> </span>與 Github 的連結, 似乎只使用 git clone, 並沒有加上 --recurse-submodules, 使用者必須手動執行.</p>
+<p>另外則是利用 pip install flask flask_cors bs4 lxml pelican markdown gevent 安裝 cmsimde 所需模組, 與上述近端改版的差異是: 無需安裝<span> </span><a href="https://www.leoeditor.com/">leo</a><span> </span>與 pyopenssl, 因為系統是在雲端 Replit 的主機上執行, 目前還無法在<span> </span><a href="https://replit.com/">Replit</a><span> </span>系統上使用<span> </span><a href="https://www.leoeditor.com/">leo</a>, 也無需自行配置近端伺服器的 SSL.</p>
+<p>一旦將動態網站配置到<span> </span><a href="https://replit.com/">Replit</a><span> </span>之後, 可以將動態網頁改版內容, 同步到對應的 Github 倉儲, 主要利用倉儲的<span> </span><a href="https://pages.github.com/">Github Pages</a><span> </span>伺服靜態網頁.</p>
+<p></p>
+<p>以上擷取mde.tw 第二週教學內容概要</p><br />網路協定 << <a href='網路協定.html'>Previous</a> <a href='W3.html'>Next</a> >> W3</div>
         
     <!-- footer -->
       <div class="container">
