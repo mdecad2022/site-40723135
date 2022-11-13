@@ -1,10 +1,8 @@
 # cmsite
 cmsimde template uses mdecycu/cmsimde as submodule
 
-On Replit:
+Under shell:
 
-for cmsite: git submodule update --init --recursive 
+git submodule update --init --recursive 
 
-for cmsimde_site: cmsimde is as directory not submodule
-
-for cmsimde: pip install flask flask_cors bs4 lxml pelican markdown gevent
+pip install flask flask_cors bs4 lxml pelican markdown gevent
