@@ -80,7 +80,40 @@ brython({debug:1, pythonpath:['/static/','./../downloads/py/']});</span></span><
 <p>一旦將動態網站配置到<span> </span><a href="https://replit.com/">Replit</a><span> </span>之後, 可以將動態網頁改版內容, 同步到對應的 Github 倉儲, 主要利用倉儲的<span> </span><a href="https://pages.github.com/">Github Pages</a><span> </span>伺服靜態網頁.</p>
 <p></p>
 <p>以上擷取mde.tw 第二週教學內容概要</p><h2>W3</h2>
-<h2>W4</h2>
+<p>1.<span>透過mdecad2022的 organization 建立個人可以管理的倉儲 (site-Github_帳號)</span></p>
+<p>2.<span>利用 replit 帳號所啟動的動態網站進行內容管理</span></p>
+<p>3.<span>動態轉為靜態網站內容之後,   要設法與 Github 倉儲同步.</span></p>
+<p><span></span></p>
+<p><span data-contrast="auto"><span>之後申請帳號都使用 @nfu   電子郵箱</span></span><span> </span></p>
+<p><span></span></p>
+<p><span data-contrast="auto"><span>修補課程網站安全疑慮:</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>目的:   不想讓 config/config 帶有編碼後的管理者密碼</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>執行步驟:</span></span><span> </span></p>
+<ol>
+<li data-aria-level="2" data-aria-posinset="1"><span data-contrast="auto"><span>必須先在個人的 mdecad2022/site-github_帳號  倉儲進行處理</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="2"><span data-contrast="auto"><span>第一步就是刪除 config/config 設定檔案</span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="3"><span data-contrast="auto"><span>修改 .gitignore 成為:  <span> </span></span></span><a href="https://raw.githubusercontent.com/mdecad2022/site-41023242/main/.gitignore"><span data-contrast="auto"><span>https://raw.githubusercontent.com/mdecad2022/site-41023242/main/.gitignore</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="4"><span data-contrast="auto"><span>加入 main.py:  <span> </span></span></span><a href="https://raw.githubusercontent.com/mdecad2022/site-41023242/main/main.py"><span data-contrast="auto"><span>https://raw.githubusercontent.com/mdecad2022/site-41023242/main/main.py</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="5"><span data-contrast="auto"><span>在倉儲根目錄加入   nocache.py, 內容如:  <span> </span></span></span><a href="https://github.com/mdecycu/cmsimde/blob/2a41b26b6d9b1446a8b448bb6fb58a6dbb41c867/nocache.py"><span data-contrast="auto"><span>https://github.com/mdecycu/cmsimde/blob/2a41b26b6d9b1446a8b448bb6fb58a6dbb41c867/nocache.py</span></span></a><span data-contrast="auto"><span> </span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span>之後再設法以 import 方式, 利用個人課程倉儲內容在replit 建立Repl 專案.</span></span><span> </span></p>
+<p><span data-contrast="auto"><span>至於Repl 專案, 必須在 Shell, 執行下列兩則指令:</span></span><span style="color: #ff0000;"><span data-contrast="none"><strong>git submodule update --init --recursive</strong> </span> <br/> </span></p>
+<p><span data-contrast="auto"><span>在倉儲根目錄執行   </span></span><span> </span></p>
+<p><span data-contrast="none"><span>表示要取下所有子模組的內容</span></span><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>並且安裝啟動  cmsimde  所需要的  Python 模組:  </span></span><span> </span></p>
+<p><span> </span><span style="color: #ff0000;"><strong><span data-contrast="none">pip install   </span><span data-contrast="none">flask flask_cors bs4 lxml pelican markdown gevent</span></strong></span><span> </span></p>
+<p><a href="https://nfuedu.sharepoint.com/:v:/s/cad2022/ETBY6qMCthVKrmxkBA4FdmQBVD5UIJB-O_Mgtl1IA6xykg?e=IaMOwE"><span data-contrast="auto"><span>Replit 專案上的靜態內容同步至原始課程倉儲教學影片</span></span></a><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="none"><span>2b 開始在 <span> </span></span></span><a href="https://exam.cycu.org/"><span data-contrast="auto"><span>https://exam.cycu.org</span></span></a><span data-contrast="none"><span>  <span> </span></span></span><span data-contrast="none"><span>建立考試帳號.</span></span><span> </span></p>
+<p><span> </span></p>
+<p>執行Replit專案過程</p>
+<p><img alt="" height="245" src="/images/1.1.PNG" width="568"/></p>
+<p>在Shell中執行以上紅色粗體的程式模組程式後, 可以開啟個人網站並且編輯個人網站轉換為靜態網站進行遠端操控</p>
+<p>然後再進行建立考試帳號</p>
+<p><span data-contrast="none"><span></span></span></p>
+<p><span> </span></p><h2>W4</h2>
 <h2>W5</h2>
 <h2>W6</h2>
 <h2>W7</h2>
