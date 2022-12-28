@@ -110,14 +110,14 @@ img.add_border {
             <header class="site-navbar py-4 bg-white" role="banner">
               <div class="container">
                 <div class="row align-items-center">
-                <h1>40723135</h1>
+                <h1>CMSimfly </h1>
                 <div class="pl-4">
                     <form>
                     <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
                     </form>
                 </div>
                   <!-- <div class="col-11 col-xl-2">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">40723135</a></h1> 
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">CMSimfly </a></h1> 
                   </div>
                   -->
                   <div class="col-12 col-md-10 d-none d-xl-block">
@@ -142,7 +142,64 @@ img.add_border {
           
         </header>
     <div id="tipue_search_content">W4 << <a href='W4.html'>Previous</a> <a href='W6.html'>Next</a> >> W6<br /><h1>W5</h1>
-<br />W4 << <a href='W4.html'>Previous</a> <a href='W6.html'>Next</a> >> W6</div>
+<ol>
+<li data-aria-level="1" data-aria-posinset="1"><span data-contrast="auto"><span><span>(登錄stud.cycu.org)利用@nfu電子郵箱接收到的賬號與密碼，登錄stud.cycu.org：在命令列表窗口，以ssh </span></span></span><span data-contrast="auto"><span><span>cad學號@stud.cycu.org，輸入以應用，密可否系統</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="2"><span data-contrast="auto"><span><span>請到excel 檔案</span></span></span><a href="https://nfuedu-my.sharepoint.com/:x:/g/personal/yen_nfu_edu_tw/ET-JZNPkNtZDhFiLt8BGZZ4BFMVV1HE73WQt1V44y6vnCQ"><span data-contrast="auto"><span><span>查詢</span></span></span></a><span data-contrast="auto"><span><span>stud.cycu.org 中與帳號對應的近端 (給127.0.0.1 使用) 與遠端 (給stud.cycu.org) 堡號</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="3"><span data-contrast="auto"><span><span>（sftp建立建立與</span></span></span><a href="mailto:%E5%B8%B3%E8%99%9F@stud.cycu.org"><span data-contrast="auto"><span><span>與</span></span></span></a><span><span data-contrast="auto"><span>與對應。</span></span></span><span data-contrast="auto"><span>   </span></span><span data-contrast="auto"><span><span></span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="4"><span data-contrast="auto"><span><span>與在近端 (Windows) 使用 SSH 建立公鑰/私鑰流程相同，必須在 Linux (Ubuntu) 使用 ssh-keygen 建立密鑰。所生成的id_rsa為私鑰，而id_rsa.pub為公鑰，都位於.ssh目錄下。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="5"><span data-contrast="auto"><span><span>使用 sftp 進入 stud.cycu.org 後，cd 到 .ssh，以獲取 id_rsa.pub 將公鑰取至 Windows 後，送至 Github -&gt; 設置 -&gt; SSH 和 GPG 設置區，通過新密鑰登錄公鑰。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="6"><span data-contrast="auto"><span><span>接下來要下載  </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EQlQii99WuZEl2_6YB_WK28BgZ3sBCVZnmLjLFJS5kXuPQ?e=0i7OKP"><span data-contrast="auto"><span><span>config</span></span></span></a><span data-contrast="auto"><span><span>設置文件，以sftp放入stud.cycu.org主機的.ssh目錄中。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="7"><span data-contrast="auto"><span><span>上面的config 主要設置SSH協議對github.com 連線時的代理主機, 但是取下cmsimde 子模型使用的是https, 因此執行下面的列表 git clone 時將同時用到SSH 與晏 https,目錄下要有config 設置文件外, 也必須同時在.gitconfig 文件中設置http.proxy, 也就是以git config --global http.proxy </span></span></span><a href="http://p42.cycu.org:3128/"><span data-contrast="auto"><span><span>http://p42.cycu.org:3128</span></span></span></a><span> </span><span data-contrast="auto"><span><span>設置提供https 連線使用的代理主機，並以 git config --global user.name 以及 git config --global user.email 設置提供交互的身份記錄。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="8"><span data-contrast="auto"><span><span>在 stud.cycu.org 中，以 git clone --recurse-submodules  </span></span></span><a href="mailto:git@github.com:mdecad2022/site-%E5%80%8B%E4%BA%BAgithub%E5%B8%B3%E8%99%9F.git"><span data-contrast="auto"><span><span>git@github.com:mdecad2022/site-個人github賬號.git</span></span></span></a><span data-contrast="auto"><span><span>   取下個人倉庫。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="9"><span data-contrast="auto"><span><span>假如先使用 git clone 並沒有取下 cmsimde 子模型內容, 只需要在設置 https 代理主機後, 進入倉庫根目錄執行 git submodule update --init --recursive 即可卸載.</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="10"><span data-contrast="auto"><span><span>接著下載</span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span><span>server.py</span></span></span></a><span data-contrast="auto"><span><span>，在Windows下編寫</span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span><span>server.py</span></span></span></a><span data-contrast="auto"><span><span>，將個人分配到的9xxxx填入後存檔，以sftp放入上列取下的倉庫根目錄。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="11"><span data-contrast="auto"><span><span>在stud.cycu.org系統中，進入倉庫（site-github賬號）後，執行python3 server.py，就可以啟動動態網站。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="12"><span data-contrast="auto"><span><span>設置完成後，各學生將會有一個廣域網上的動態網站（取代 Replit 上的動態網站），</span></span></span><a href="https://stud.cycu.org:8xxxx"><span data-contrast="auto"><span><span>https:</span></span></span></a><span data-contrast="auto"><span><span> //stud.cycu.org:8xxxx 看   個人的動態網站。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="13"><span data-contrast="auto"><span><span>動態網站改版後，轉為靜態，必須通過source </span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EZn5-jIdQ3pMmi_QxSVWWoYBHvcEtgUrAGCPiIlPyDQ6sw?e=9mc7rR"><span data-contrast="auto"><span><span>acp</span></span></span></a><span data-contrast="auto"><span><span>以SSH將改版內容傳回github。（必須使用 chmod u+x acp 將 acp 文件屬性改為對用戶可以執行（也就是 x 屬性）。</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="14"><span data-contrast="auto"><span><span>執行source acp "提交字符串" 之前必須要 git config --global user.name, </span></span></span><span data-contrast="auto"><span><span>git config --global user.email, </span></span></span><span data-contrast="auto"><span><span>git config --global http.proxy</span></span></span><span> </span></li>
+<li data-aria-level="1" data-aria-posinset="15"><span data-contrast="auto"><span><span>上文所述採用指令模式對服務器 sftp 也可以利用  </span></span></span><a href="https://portableapps.com/apps/internet/filezilla_portable"><span data-contrast="auto"><span><span>Filezilla portable</span></span></span></a><span data-contrast="auto"><span><span>，以圖形介紹面完成。而ssh也可以透過putty.exe執行遠程登錄。</span></span></span><span> </span></li>
+</ol>
+<p><span> </span></p>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>.ssh 目錄下的配置：</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>Host 就是 .ssh/config 設置的對應會話名稱，此處若 Host 設置為 demo，則 SSH 對應的 .git/config 中的 URL 就必須使用</span></span></span></span><a href="mailto:git@demo:mdecad2022/site-scrum-1.git,"><span data-contrast="auto"><span><span><span>git@demo:mdecad2022/site-scrum-1.git,</span></span></span></span></a><span data-contrast="auto"><span><span><span><span> </span>demo 就是Host, Port 那麼是隨後的 %p 也就是 SSH 協議內定的 port 22, %h 那麼是 Hostname, 也就是 github.com</span></span></span></span><span> </span></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span data-contrast="auto"><span><span><span>1個</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>2個</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>3個</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>4個</span></span></span></span><span> </span></p>
+</td>
+<td>
+<p><span data-contrast="auto"><span><span><span>主機演示</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>用戶 git</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>主機名 github.com</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>ProxyCommand /usr/bin/ncat --proxy p42.cycu.org:3128 --proxy-type http %h %p</span></span></span></span><span> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>--------------------------------------</span></span></span></span><span> </span></p>
+<p><span data-contrast="auto"><span><span><span>2a在一台遠程服務器，執行個人倉庫的動態網頁。</span></span></span></span><span> </span></p>
+<p><span> </span></p>
+<ol>
+<li data-aria-level="2" data-aria-posinset="1"><span data-contrast="auto"><span><span><span>登入</span></span></span></span><a href="https://mail.nfu.edu.tw/"><span data-contrast="auto"><span><span><span>https://mail.nfu.edu.tw</span></span></span></span></a><span data-contrast="auto"><span><span><span><span> </span>  - 查看登入stud.cycu.org 伺服器的帳號密碼, 帳號為cad+學號, 密碼為四個字元, 包括數字與小寫英文字母</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="2"><span data-contrast="auto"><span><span><span>請到excel 檔案</span></span></span></span><a href="https://nfuedu-my.sharepoint.com/:x:/g/personal/yen_nfu_edu_tw/ET-JZNPkNtZDhFiLt8BGZZ4BFMVV1HE73WQt1V44y6vnCQ"><span data-contrast="auto"><span><span><span>查詢</span></span></span></span></a><span data-contrast="auto"><span><span><span>stud.cycu.org 中與帳號對應的近端 (給 127.0.0.1 使用, 9 開頭的端口) 與遠端 (給 stud.cycu.org, 8 開頭的端口) 墩號</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="3"><span data-contrast="auto"><span><span><span>修改可攜帶Python 3.10.6 start.bat，蓋掉第三行後重新啟動，目標的希冀操作系統的指令搜索路徑放於可攜帶目標搜索路徑。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="4"><span data-contrast="auto"><span><span><span>重新啟動可攜帶程序環境，在其中一個命令列表，ssh <span> </span></span></span></span></span><a href="mailto:cad+%E5%AD%B8%E8%99%9F@stud.cycu.org"><span data-contrast="auto"><span><span><span>cad+學號@stud.cycu.org</span></span></span></span></a><span data-contrast="auto"><span><span><span>，表示要使用secure shell遠程登錄到stud.cycu.org，這是.Ubuntu一台Linux服務器22主機，4服務器(若使用的網絡連接協議並沒有IPv6，可將系統的代理設置為140.130.17.4:3128 kmolab/kmolab)</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="5"><span data-contrast="auto"><span><span><span>在 ssh 登錄界面，以 ssh-keygen 建立密鑰對，.ssh/id_rsa 為私鑰，id_rsa.pub 為公鑰</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="6"><span data-contrast="auto"><span><span><span>設置方法利用 Filezilla，以 sftp 安全的（安全）文件（文件）傳輸（傳輸）協議（協議），與 stud.cycu.org 伺服器鏈接。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="7"><span data-contrast="auto"><span><span><span>利用 Filezilla sftp 取下 id_rsa.pub，登錄至 Github 帳號下的設置 -&gt; SSH 和 GPG 密鑰。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="8"><span data-contrast="auto"><span><span><span>對於服務器 sftp 也可以利用 <span> </span></span></span></span></span><a href="https://portableapps.com/apps/internet/filezilla_portable"><span data-contrast="auto"><span><span><span>Filezilla portable</span></span></span></span></a><span data-contrast="auto"><span><span><span>，以圖形介面完成。</span><span>而ssh也可以透過putty.exe執行遠程登錄。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="9"><span data-contrast="auto"><span><span><span>接下來要下載 <span> </span></span></span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EQlQii99WuZEl2_6YB_WK28BgZ3sBCVZnmLjLFJS5kXuPQ?e=0i7OKP"><span data-contrast="auto"><span><span><span>config</span></span></span></span></a><span data-contrast="auto"><span><span><span>設置文件，以sftp放入stud.cycu.org主機的.ssh目錄中。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="10"><span data-contrast="auto"><span><span><span>接下來要在Ubuntu（也就是stud.cycu.org這台主機所安裝的操作系統）中，設置.gitconfig，總包包含三項設置：git config --global user.name "scrum-1", git config --global user.email "scrum1@mde.tw" 以及 git config --global http.proxy http://p42.cycu.org:3128, 這三個設置必須在 ssh 登錄界面中執行, 設置完成文件會存入帳號根目錄中的.gitconfig</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="11"><span data-contrast="auto"><span><span><span>利用 git clone --recurse-submodules <span> </span></span></span></span></span><a href="mailto:git@demo:mdecad2022/site-scrum-1.git"><span data-contrast="auto"><span><span><span>git@demo:mdecad2022/site-scrum-1.git</span></span></span></span></a><span data-contrast="auto"><span><span><span><span> </span>  demo</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="12"><span data-contrast="auto"><span><span><span>接著下載</span></span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span><span><span>server.py</span></span></span></span></a><span data-contrast="auto"><span><span><span>，在Windows下編寫</span></span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EXD1ElHAqFNFk6LERfjLYNgBJ4mgWYGSRsRJhq2kQyxK1w?e=rEYXQB"><span data-contrast="auto"><span><span><span>server.py</span></span></span></span></a><span data-contrast="auto"><span><span><span>，將個人分配到的9xxxx填入後存檔，以sftp放入上列取下的倉庫根目錄。</span></span></span></span><span> </span></li>
+<li data-aria-level="2" data-aria-posinset="13"><span data-contrast="auto"><span><span><span>登錄Ubuntu後，會使用的命令：pwd 代表打印工作目錄，clear - 清除路由，cd - 更換目錄，ls -l 列出目錄詳細內容，chmod u+x讓</span></span></span></span><a href="https://nfuedu.sharepoint.com/:u:/s/cad2022/EZn5-jIdQ3pMmi_QxSVWWoYBHvcEtgUrAGCPiIlPyDQ6sw?e=9mc7rR"><span data-contrast="auto"><span><span><span>acp</span></span></span></span></a><span data-contrast="auto"><span><span><span>顯示讓用戶（可以執行acp腳本）者以 source acp 添加上提交字符串進行 git add, git commit, git push, 如何在 Windows 中執行 acp.bat 添加上提交字符串。</span></span></span></span><span> </span></li>
+</ol><br />W4 << <a href='W4.html'>Previous</a> <a href='W6.html'>Next</a> >> W6</div>
         
     <!-- footer -->
       <div class="container">
