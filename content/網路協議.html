@@ -130,7 +130,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='關於.html'>關於</a><li><a href='布萊頓.html'>布萊頓</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li class='has-children'><a href='W2.html'>W2</a><ul class='dropdown'><li><a href='網路協定.html'>網路協定</a><li><a href='Replit 作為應用程式伺服器.html'>Replit 作為應用程式伺服器</a></li></ul><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a></li>
+                     <li><a href='關於.html'>關於</a><li><a href='布萊頓.html'>布萊頓</a><li class='has-children'><a href='每週進度.html'>每週進度</a><ul class='dropdown'><li><a href='W1.html'>W1</a><li class='has-children'><a href='W2.html'>W2</a><ul class='dropdown'><li><a href='網路協議.html'>網路協議</a><li><a href='Replit 用作應用程式伺服器.html'>Replit 用作應用程式伺服器</a></li></ul><li><a href='W3.html'>W3</a><li><a href='W4.html'>W4</a><li><a href='W5.html'>W5</a><li><a href='W6.html'>W6</a><li><a href='W7.html'>W7</a><li><a href='W8.html'>W8</a><li><a href='W9.html'>W9</a><li><a href='W10.html'>W10</a><li><a href='W11.html'>W11</a><li><a href='W12.html'>W12</a><li><a href='W13.html'>W13</a></li>
                       </ul>
                 </nav>
               </div>
@@ -141,23 +141,23 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">W2 << <a href='W2.html'>Previous</a> <a href='Replit 作為應用程式伺服器.html'>Next</a> >> Replit 作為應用程式伺服器<br /><h1>網路協定</h1>
-<p>所有網路上的應用, 都牽涉網路協定, 以 https 而言, 所使用的網路協定就是 http, 也就是超文件傳輸協定. 而 https 就是在利用超文件傳輸的過程中, 將傳送的資料加以加密編碼後, 直到接收後再解開, 是相較於 http 嚴謹安全的傳送.</p>
-<p>以 https 擷取 Github 倉儲的時候, 需要在 URL 中加上帳號<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">token</a>, 而這串連線驗證身分用的字串, 還帶有權限範圍, 以及時效, 使用者可以在 Github 帳號設定頁中取得.</p>
-<p>由於 Github 目前只支援 IPv4 協定, 而在電腦輔助設計室為了擴大可用頻寬, 採用 IPv6 協定, 要讓 IPv6 協定下的 git 指令, 正確與 Github 倉儲連線, 必須透過 Proxy server (使用<span> </span><a href="http://www.squid-cache.org/">Squid</a>), 而且是能同時支援 IPv4 與 IPv6 協定的代理主機. 以 https 對 git 指令的 Proxy 設定, 位於可攜程式環境中的 home_ipv6 目錄下, 檔案名稱為 .gitconfig, 使用者執行 git config 後的設定就是存入 home_ipv6/.gitconfig 檔案中.</p>
-<p>至於 git 所使用的<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">SSH</a><span> </span>連線協定, 在 Windows 操作系統, 可以透過<span> </span><a href="https://www.putty.org/">Putty</a><span> </span>session 設定達成, 其中的 session 包含連線到 github.com, 所使用的<span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html">SSH</a><span> </span>認證用 private key 位置, 還有 Proxy 設定.</p>
-<p>上述將使用 cmsimde 作為子模組的倉儲取至近端電腦的目的, 共有兩個: 進行改版以及進行協同.</p>
-<p>在近端進行倉儲內容改版的意思是, 利用 Python 與必要模組, 可以執行 cmsimde 網站中的動態系統, 其中所需要的模組為:</p>
-<p>flask flask_cors bs4 lxml pelican markdown leo pyopenssl</p>
-<p>flask 與 flask_cors 是網際框架, 安裝 flask_cors 的目的是讓網站可以跨網域擷取資料.</p>
-<p>bs4 是用來對超文件分頁的工具, 讓 cmsimde 中的 config/content.htm 可以根據 H1, H2 與 H3 的標題進行分頁.</p>
-<p>lxml 是將動態網頁內容轉為靜態網頁內容時所需要的解讀模組.</p>
-<p>pelican 是用來建立網誌的工具, 可以將使用者所寫的 Markdown 轉為網誌格式的內容.</p>
-<p>markdown 是用來解讀 .md 檔案的工具.</p>
-<p><a href="https://www.leoeditor.com/">leo</a><span> </span>是大綱管理模組, 用來作為編寫網誌或簡報的工具, 也可以當作程式開發的 IDE.</p>
-<p>pyopenssl 則是在動態網頁中, 以程式方法伺服靜態網頁內容時, 建立 SSL 連線時所需.</p>
+    <div id="tipue_search_content">W2 << <a href='W2.html'>Previous</a> <a href='Replit 用作應用程式伺服器.html'>Next</a> >> Replit 用作應用程式伺服器<br /><h1>網路協議</h1>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">所有網上的應用，都牽涉網絡協議，以https而言，所有使用的網絡協議就是http，也就是超文件傳輸協議。</span><span style="vertical-align: inherit;">而https就是在利用超文件傳送的過程中，將傳送的資料加上以加密編碼後，直接到接收後再解開，是相對於http嚴謹安全的傳送。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Https擷取github倉儲倉儲時候時候時候時候在在在中中帳號帳號帳號帳號帳號帳號帳號帳號帳號這</span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;">串連</span></a><span style="vertical-align: inherit;">線驗證身分用身分用的，還，還帶有，以及時效，以及時效，使用者以及時效以及時效，使用者</span></span><span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;"></span></a><span style="vertical-align: inherit;"></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">由於github目前目前支援支援支援支援協定，而而輔助設計室設計室為了可用用頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬頻寬為了為了為了為了為了為了為了為了為了為了為了為了為了為了為了採用為了為了採用採用為了為了為了為了為了為了為了為了為了設計室</span><a href="http://www.squid-cache.org/"><span style="vertical-align: inherit;">設計</span></a><span style="vertical-align: inherit;">室是能夠同時支持 IPv4 與 IPv6 協議的代理主機。</span><span style="vertical-align: inherit;">以https對git命令的Proxy設置，位於可移植程序環境中的home_ipv6目錄下，文件名為.gitconfig，使用者執行git config後的設置就存入config.home_ipv6/.</span></span><span> </span><a href="http://www.squid-cache.org/"><span style="vertical-align: inherit;"></span></a><span style="vertical-align: inherit;"></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">至於git所有使用的</span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;">SSH</span></a><span style="vertical-align: inherit;">連接線協議，在Windows操作系統，可以通過</span><a href="https://www.putty.org/"><span style="vertical-align: inherit;">Putty</span></a><span style="vertical-align: inherit;"> session設置達成，其中的session包含連接到github.com，所有使用的</span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;">SSH</span></a><span style="vertical-align: inherit;">認證有私鑰，偽裝y代理</span></span><span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;"></span></a><span> </span><span style="vertical-align: inherit;"></span><span> </span><a href="https://www.putty.org/"><span style="vertical-align: inherit;"></span></a><span> </span><span style="vertical-align: inherit;"></span><span> </span><a href="https://mde.tw/content/Token%20and%20SSH.html"><span style="vertical-align: inherit;"></span></a><span> </span><span style="vertical-align: inherit;"></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">上文將使用cmsimde作為子模型的倉庫取到近端電腦的目標的，共有兩個：進行修改以及進行協同。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">在近端進入倉庫內容修改版的意思是，利用Python與必須的模型，可以執行cmsimde網站中的動態系統，其中所需要的模型為：</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">flask flask_cors bs4 lxml 鵜鶘降價 leo pyopenssl</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">flask 與 flask_cors 是互聯網框架，安裝 flask_cors 的目的是讓網站可以跨網域提取資料。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">bs4是用來對超文件頁面的工具，讓cmsimde中的config/content.htm可以根據H1、H2與H3的標題進入頁面。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">lxml 是將動態網頁內容轉為靜態網頁內容時所需要的閱讀模塊。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">pelican 是用來建立網絡志的工具，可以將使用者所寫的 Markdown 轉為網絡志格式的內容。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">markdown 是用來理解.md 文檔的工具。</span></span></p>
+<p><a href="https://www.leoeditor.com/"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">leo</span></span></a><span> </span><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">是大類管理模塊，用來編寫網絡誌或簡報的工具，也可以當做程序開發的IDE。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">pyopenssl則在動態網頁中，以程序方式強制服務靜態網頁內容時，建立SSL連線時所需要。</span></span></p>
 <p></p>
-<br />W2 << <a href='W2.html'>Previous</a> <a href='Replit 作為應用程式伺服器.html'>Next</a> >> Replit 作為應用程式伺服器</div>
+<br />W2 << <a href='W2.html'>Previous</a> <a href='Replit 用作應用程式伺服器.html'>Next</a> >> Replit 用作應用程式伺服器</div>
         
     <!-- footer -->
       <div class="container">
